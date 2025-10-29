@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hi Kamo congratulation </Text>
       <StatusBar style="auto" />
-      <Link href="/Profile" style={{color: 'lime green'}}> Go to Profile</Link>
+      <Link href="/Profile" style={{color: 'limegreen'}}> Go to Profile</Link>
     </View>
   );
 }
@@ -14,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e4e7eaff',
+    backgroundColor: '#5a91c7ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
