@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import './golbal.css';
+import './global.css';
 export default function RootLayout() {
   return <Stack />;
 }
