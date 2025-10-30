@@ -1,0 +1,28 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# These files are text and should be normalized (convert to LF)
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.md text
+*.txt text
+*.css text
+*.html text
+
+# These files are binary and should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.avi binary
+*.pdf binary
+
+# Framework specific
+package-lock.json binary
+yarn.lock binary
